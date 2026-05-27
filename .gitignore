@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Dados — não versionar arquivos grandes (FAERS bruto tem ~300 MB)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# ... mas versionar os artefatos analíticos pequenos que o app precisa
+!data/processed/dashboard/
+!data/processed/signals_2023.parquet
+!data/processed/network_edges_2023.parquet
+!data/processed/network_centrality_2023.parquet
+
+# Modelos — incluímos .pkl pequenos para o deploy funcionar.
+# Se algum modelo passar de 50 MB, mover para Git LFS ou HF Hub.
+
+# IDE / ferramentas locais
+.vscode/
+.idea/
+.claude/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Logs
+*.log
+optuna_*.db

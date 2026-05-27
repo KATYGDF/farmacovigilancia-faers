@@ -1,0 +1,9 @@
+# Dependências adicionais para desenvolvimento (notebooks, EDA, treino).
+# Instalar APÓS requirements.txt:
+#   pip install -r requirements.txt -r requirements-dev.txt
+optuna>=3.5
+seaborn>=0.13
+jupyter>=1.0
+python-louvain>=0.16
+requests>=2.31
+pytest>=8.0

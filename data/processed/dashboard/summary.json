@@ -1,0 +1,12 @@
+{
+  "total_cases": 1544991,
+  "total_drug_reports": 7470835,
+  "total_unique_drugs": 57415,
+  "total_reactions": 5843817,
+  "total_unique_reactions": 16411,
+  "cases_with_outcome": 961967,
+  "serious_rate_pct": 49.26,
+  "death_rate_pct": 13.69,
+  "year": 2023,
+  "n_quarters": 4
+}
