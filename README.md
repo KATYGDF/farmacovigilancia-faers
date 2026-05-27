@@ -2,6 +2,10 @@
 
 > Pipeline completo de farmacovigilância sobre o FAERS (FDA Adverse Event Reporting System): ingestão e normalização de **~1,5 milhão de relatos** de 2023, detecção de sinais por disproporcionalidade (PRR, ROR, IC), classificação de severidade com XGBoost+SHAP, análise de rede droga–droga (NetworkX + Louvain) e dashboard interativo em Streamlit.
 
+**👉 [Acesse a demo ao vivo](https://farmacovigilancia-faers.streamlit.app/)**
+
+[![Demo](https://img.shields.io/badge/🚀_Demo_ao_vivo-Streamlit-1F5082?style=for-the-badge)](https://farmacovigilancia-faers.streamlit.app/)
+
 [![Python](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.8-orange)](https://scikit-learn.org/)
@@ -141,7 +145,7 @@ Dashboard Streamlit com **4 abas**:
 | ⚕️ **Predição de Severidade** | Formulário (idade, sexo, droga, indicação) → probabilidade + waterfall SHAP local |
 | 🕸️ **Rede Droga-Droga** | Grafo interativo PyVis · cores = comunidades · tamanho = centralidade |
 
-> _Link do Streamlit Cloud aqui após deploy._
+**🚀 Demo online:** **https://farmacovigilancia-faers.streamlit.app/**
 
 ## 🛠️ Como executar localmente
 
